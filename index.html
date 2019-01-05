@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Portfolio site">
+  		<meta name="author" content="Laura Paulauskaite">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio</title>
+		<link rel="stylesheet" href="./css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<header class="flex-grid">
+				<div class="logo_img">
+					<img src="./img/logo.png" width="130" height="130" alt="logo" class="logo">
+				</div>
+				<div class="row name_title">
+					<h1>LAURA PAULAUSKAITE</h1>
+					<h2>Front-End Web Developer</h2>
+				</div>
+			</header>
+			<div class="hr">
+				<hr>
+			</div>
+			<main>
+				<article class="image">
+					<img 
+						 src="./img/main.jpg"
+						 alt="Background"
+						 class="main_img"
+						 srcset="./img/main_small.jpg 600w,
+						 ./img/main_medium.jpg 800w,
+						 ./img/main_large.jpg 1200w,
+						 ./img/main_xlarge.jpg 1600w"
+						 sizes="(min-width: 800px) 800px, 100vw"
+					>
+				</article>
+				<div class="featured">
+					<h3>Featured work</h3>
+				</div>
+				<div class="items">
+					<article>
+						<img src="./img/item_1.jpg" alt="Tribute" class="item_1">
+						<h3>Tribute Page</h3>
+						<a href="https://codepen.io/aruelkuro/pen/yzJNOG" class="link">Codepen</a>
+					</article>
+					<article>
+						<img src="./img/item_2.jpg" alt="Animal card" class="item_2">
+						<h3>Animal trading card</h3>
+						<a href="https://codepen.io/aruelkuro/pen/qVPePq" class="link">Codepen</a>
+					</article>
+					<article>
+						<img src="./img/item_3.jpg" alt="Clock" class="item_3">
+						<h3>Clock</h3>
+						<a href="https://codepen.io/aruelkuro/pen/ddKqgm" class="link">Codepen</a>
+					</article>
+				</div>
+				<div class="footer">
+					<footer>
+						<p> &copy; 2018 Laura Paulauskaite</p>
+					</footer>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>
